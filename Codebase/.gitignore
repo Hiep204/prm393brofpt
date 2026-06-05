@@ -1,0 +1,47 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+.vscode/
+.idea/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Environment and local secrets
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+
+# Database runtime files
+*.db
+*.db-shm
+*.db-wal
+
+# Test results and coverage
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+packages/
+
+# Publish output
+publish/
+*.Publish.xml
